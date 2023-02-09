@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="head">
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <img class="menu" src="./images/icon-menu.svg">
+          <img src="./images/logo.svg">
+        </div>
+        <ul class="links">
+          <li>
+            <a class="close-menu" href="#close">
+              <img src="./images/icon-close.svg">
+            </a>
+          </li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="profile">
+        <div class="cart">
+          <div class="button-notify">
+            <img class="cart-button" src="./images/icon-cart.svg">
+            <span class="notification">5</span>
+          </div>
+          <div class="cart-list">
+            <h4>Cart</h4>
+            <div class="list">
+              <p class="no-items">Your cart is empty</p>
+              <div class="item">
+                <img src="./images/image-product-1-thumbnail.jpg">
+                <div class="text">
+                  <p>Fall Limited Edition Sneakers</p>
+                  <div class="amount">
+                    <span class="item-price">$125.00 x </span>
+                    <span class="number"> </span>
+                    <b class="final-price">
+                      <span>$</span>
+                      <span id="price"></span>
+                    </b>
+                  </div>
+                </div>
+                <img class="delete-button" src="./images/icon-delete.svg">
+                <a href="#" class="checkout-button">Checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profile-pic">
+          <img src="./images/image-avatar.png">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="body">
+    <div class="container">
+      <div class="images">
+        <div class="active-image">
+          <img src="./images/image-product-1.jpg">
+          <img class="next" src="./images/icon-next.svg">
+          <img class="previous" src="./images/icon-previous.svg">
+        </div>
+        <div class="all-images">
+          <div class="img active"><img src="./images/image-product-1-thumbnail.jpg"></div>
+          <div class="img"><img src="./images/image-product-2-thumbnail.jpg"></div>
+          <div class="img"><img src="./images/image-product-3-thumbnail.jpg"></div>
+          <div class="img"><img src="./images/image-product-4-thumbnail.jpg"></div>
+        </div>
+      </div>
+      <div class="images-gallery">
+        <img src="./images/icon-close.svg" class="close-image">
+        <div class="active-image">
+          <img src="./images/image-product-1.jpg">
+          <img class="next" src="./images/icon-next.svg">
+          <img class="previous" src="./images/icon-previous.svg">
+        </div>
+        <div class="all-images">
+          <div class="img active"><img src="./images/image-product-1-thumbnail.jpg"></div>
+          <div class="img"><img src="./images/image-product-2-thumbnail.jpg"></div>
+          <div class="img"><img src="./images/image-product-3-thumbnail.jpg"></div>
+          <div class="img"><img src="./images/image-product-4-thumbnail.jpg"></div>
+        </div>
+      </div>
+      <div class="details">
+        <p>Sneakers Company</p>
+        <h2>Fall limited edition sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companior.
+          Featuring a durable rubber outer sole, they'll withstand everything the wheather can offer.
+        </p>
+        <div class="price">
+          <div class="new-price">
+            <span>$125.00</span>
+            <span>50%</span>
+          </div>
+          <span class="old-price">$250.00</span>
+        </div>
+        <div class="order">
+          <div class="count">
+            <span>
+              <img src="./images/icon-minus.svg">
+            </span>
+            <span class="number-of-items">0</span>
+            <span>
+              <img src="./images/icon-plus.svg">
+            </span>
+          </div>
+          <a href="#" class="order-button">
+            <i class="fa fa-cart-shopping"></i>
+            Add to cart
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
